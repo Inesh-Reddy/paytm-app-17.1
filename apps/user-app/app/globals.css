@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+  display: flex; /* Center the card horizontally */
+  justify-content: center; /* Horizontally center the card content */
+  align-items: center; /* Vertically center the card content (optional) */
+  min-height: 100vh; /* Optional: Set a minimum height for the container */
+}
+
+.card {
+  background-color: rgb(52, 128, 214); /* Black background for the card */
+  padding: 20px; /* Add some padding inside the card */
+  border-radius: 50px; /* Add rounded corners to the card */
+}
+
+.text {
+  color: azure; /* White text to contrast with the black background */
+  font-size: 4cqmax; /* Assuming you want to keep the font size from your original code */
+}
